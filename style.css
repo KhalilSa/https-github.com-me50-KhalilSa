@@ -7,6 +7,9 @@ a > i {
 }
      /*class selectors*/
 .nav-colored { background-color: #222527 !important; }
+.pad{
+    padding: 10px;
+}
 .nav-transparent { background-color:transparent !important;}
 .active{
     color: #EE8293 !important;
