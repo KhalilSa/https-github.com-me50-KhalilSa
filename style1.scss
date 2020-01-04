@@ -8,18 +8,29 @@ $footer-bg-color: #222527;
 	position: relative;
 	top: 120px;
 }
+%footer-color{
+    color: $footer-color !important;
+}
 body{
 	color: $body-color;
+}
+footer{
+        clear: both;
+        position: relative;
+        margin-top: 200px;
 }
 .bg-home, .main-nav > ul > li > a{
 	color: $primary-color !important;
 }
 .bg-gray{
-	backgroung-color: $bg-gray;
+	background-color: $bg-gray;
 }
 .services-main-title{
     font-size: 17px;
     font-weight: 600;
+}
+.about-us{
+    @extend %relative;
 }
 .contacts{
 	@extend %relative;
@@ -35,9 +46,6 @@ body{
 		object-fit: cover;
 	}
 }
-%footer-color{
-	color: $footer-color !important;
-}
 .footer{
     background-color: $footer-bg-color;
     font-size: 15px;
@@ -50,9 +58,4 @@ body{
     h5{
     	color: $primary-color;
     }
-}
-footer{
-        clear: both;
-        position: relative;
-        margin-top: 200px;
 }
